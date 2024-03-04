@@ -32,7 +32,7 @@ public class LEGConUltimo <E> {
         return true;
     }
 
-    @Override
+
     public String toString() {
         String res = "";
         for (NodoLEG<E> aux = primero; aux != null; aux = aux.siguiente) {
@@ -40,4 +40,10 @@ public class LEGConUltimo <E> {
         }
         return res;
     }
+
+    public String toStringRecursivo(){
+
+    }
+
+    public 
 }
