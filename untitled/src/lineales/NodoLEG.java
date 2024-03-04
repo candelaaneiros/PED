@@ -1,3 +1,5 @@
+package lineales;
+
 public class NodoLEG <E>{
     E dato;
     NodoLEG<E> siguiente;
