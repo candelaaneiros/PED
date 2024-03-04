@@ -34,9 +34,10 @@ public class LEGConUltimo <E> {
 
     @Override
     public String toString() {
-        return "LEGConUltimo{" +
-                "primero=" + primero +
-                ", ultimo=" + ultimo +
-                '}';
+        String res = "";
+        for (NodoLEG<E> aux = primero; aux != null; aux = aux.siguiente) {
+            res += aux.dato + " ";
+        }
+        return res;
     }
 }
